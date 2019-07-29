@@ -1,4 +1,4 @@
-# crush-managemtn
+# Crush-management
 Node Api to manager crushs.
 
 # Technologies Used
