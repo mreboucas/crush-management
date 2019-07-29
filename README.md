@@ -1,2 +1,4 @@
-# crus-managemtn
-Api to manager crushs
+# crush-managemtn
+Node Api to manager crushs.
+
+
