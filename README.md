@@ -3,7 +3,7 @@ Node Api to manager crushs.
 
 # Technologies Used
 
-> NodeJS
-> NPM
-> TypeScript
-> MongoDB
+> NodeJS	<br>
+> NPM <br>
+> TypeScript <br>
+> MongoDB <br>
