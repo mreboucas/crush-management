@@ -1,5 +1,5 @@
 # Crush-management
-Node Api to manager crushs.
+Node Api Rest With MongoDb to manager crushs.
 
 # Technologies Used
 
