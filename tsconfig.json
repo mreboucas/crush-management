@@ -1,1 +1,28 @@
-{"compilerOptions":{"target": "es5","module": "commonjs","outDir": "build","typeRoots": ["../node_modules/@types"],"types": ["node"]},"include": ["server/**/*.ts","server/*.ts"],"exclude": ["node_modules"],"compileOnSave": true,"buildOnSave": true}
+/**
+   I)compilerOptions : Colocando as opções de compilação do Type Script, queremos que ele transcreva todo o conteúdo para ES5 usando o módulo commonjs e passe tudo para a pasta build;
+   II) include: Incluímos os arquivos da nossa futura pasta server e os arquivos de suas subpastas;
+   III) exclude: Deixamos de fora da compilação os arquivos da node_modules
+   IV) Por último dizemos que quando salvarmos algum arquivo .ts o typescript ja compila e “builda” esses arquivos
+*/
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "build",
+        "typeRoots": [
+            "../node_modules/@types"
+        ],
+        "types": [
+            "node"
+        ]
+    },
+    "include": [
+        "server/**/*.ts",
+        "server/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": true
+}
