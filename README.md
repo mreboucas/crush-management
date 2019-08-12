@@ -11,12 +11,12 @@ Node Api to manager crushs.
 
 
 # Files to configure Node js
-> app.ts
-> tsconfig.ts
-> server.ts
+> app.ts <br>
+> tsconfig.ts <br>
+> server.ts <br>
 
 # Files to configure mogodb
-> db.ts
+> db.ts<br>
 
 
 
