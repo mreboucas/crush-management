@@ -19,5 +19,15 @@ Node Api Rest With MongoDb to manager crushs.
 > db.ts<br>
 
 
+# Start app
+> npm start
 
-#Por ultimo vamos chamar no método construtor o método que abre nossa conexão para quando a nossa API rodar uma das primeiras coisas que será feita é a #abertura da conexão
+# Start mongdb
+> sudo service mongod start
+
+# Creates many typescript files
+> touch server/modules/crush/{controller,repository,routes,schema}.ts
+
+Stop here
+
+#Com o nosso CRUD feito vamos em rotas, aqui o objetivo é criar as chamas para acessar os metodos de CRUD do arquivo controller
