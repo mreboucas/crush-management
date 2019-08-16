@@ -9,10 +9,12 @@ class DataBase {
 
     createConnection(){
 
-        mongoose.connect(this.DB_URI);
+        this.DB_CONNECTION = mongoose.connect(this.DB_URI);
+
+        this.DB_CONNECTION = mongoose;
 
         this.logger(this.DB_URI);
-
+        process.env.NODE
     }
 
     closeConnection(message, callback) {
@@ -25,7 +27,8 @@ class DataBase {
     }
 
     logger(uri) {
-        
+        this.DB_CONNECTION = mongoose.connection;
+
         this.DB_CONNECTION.on('connected',() => console.log('Mongoose está conectado ao ' + uri));
         
         this.DB_CONNECTION.on('error', error => console.error.bind(console, "Erro na conexão: " + error));

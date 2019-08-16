@@ -14,7 +14,8 @@
         ],
         "types": [
             "node"
-        ]
+        ],
+        "sourceMap": true
     },
     "include": [
         "server/**/*.ts",

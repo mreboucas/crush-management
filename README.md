@@ -8,6 +8,18 @@ Node Api Rest With MongoDb to manager crushs.
 > TypeScript <br>
 > MongoDB <br>
 
+# Install all api dependencies
+#Api depends to work
+> npm install body-parser express http-status mongoose morgan nodemon
+
+#Packages needs to development
+> npm install @types/body-parser @types/express @types/http-status @types/mongoose @types/morgan @types/node ts-node typescript -D <br>
+
+> -D --only=development
+
+#Install dependencies
+> npm install
+
 
 
 # Files to configure Node js

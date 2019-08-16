@@ -1,4 +1,4 @@
-import Crush from './repository';
+import CrushRepository from './repository';
 
 class CrushController {
     constructor() {
@@ -6,17 +6,17 @@ class CrushController {
     }
 
     getAll() {
-        return Crush.find({
+        return CrushRepository.find({
 
         });
     }
 
     getByID(id) {
-        return Crush.findById(id);
+        return CrushRepository.findById(id);
     }
 
     create(crush) {
-        return Crush.create(crush);
+        return CrushRepository.create(crush);
     }
 
     update(id, crush) {
@@ -29,11 +29,15 @@ class CrushController {
             nota: crush.nota
           }
 
-          return Crush.findByIdAndUpdate(id, crush);
+          return CrushRepository.findByIdAndUpdate(id, crush);
     }
 
     delete (id) {
-        return Crush.remove(id);
+        return CrushRepository.remove(id);
+    }
+
+    teste(req, res) {
+        return "Hi, baby, hi!!!";
     }
 }
 
