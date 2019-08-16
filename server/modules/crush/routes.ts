@@ -61,7 +61,7 @@ class CrushRoutes {
     } 
 
     test(res) {
-        sendResponse(res, httpStatus.OK, "teste")
+        return sendResponse(res, httpStatus.OK, "teste")
     }
 }
 
